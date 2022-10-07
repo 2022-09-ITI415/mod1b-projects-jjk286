@@ -10,7 +10,7 @@ public class PlayerLife : MonoBehaviour
 
     bool dead = false;
 
-    void update ()
+    void Update ()
     {
         if (transform.position.y < -1f && !dead)
         {
